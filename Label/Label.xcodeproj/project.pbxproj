@@ -15,6 +15,8 @@
 		DE2533F61F14DA65004A8F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2533F41F14DA65004A8F78 /* LaunchScreen.storyboard */; };
 		DE2534011F14DA66004A8F78 /* LabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2534001F14DA66004A8F78 /* LabelTests.m */; };
 		DE25340C1F14DA66004A8F78 /* LabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE25340B1F14DA66004A8F78 /* LabelUITests.m */; };
+		DE25341E1F14DD2A004A8F78 /* MyAlernLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE25341B1F14DD2A004A8F78 /* MyAlernLabel.m */; };
+		DE25341F1F14DD2A004A8F78 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE25341D1F14DD2A004A8F78 /* UIView+XMGExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		DE2534071F14DA66004A8F78 /* LabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE25340B1F14DA66004A8F78 /* LabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelUITests.m; sourceTree = "<group>"; };
 		DE25340D1F14DA66004A8F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE25341A1F14DD2A004A8F78 /* MyAlernLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlernLabel.h; sourceTree = "<group>"; };
+		DE25341B1F14DD2A004A8F78 /* MyAlernLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlernLabel.m; sourceTree = "<group>"; };
+		DE25341C1F14DD2A004A8F78 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		DE25341D1F14DD2A004A8F78 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		DE2533E51F14DA65004A8F78 /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				DE2534191F14DD2A004A8F78 /* MyAlernLab */,
 				DE2533E91F14DA65004A8F78 /* AppDelegate.h */,
 				DE2533EA1F14DA65004A8F78 /* AppDelegate.m */,
 				DE2533EC1F14DA65004A8F78 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				DE25340D1F14DA66004A8F78 /* Info.plist */,
 			);
 			path = LabelUITests;
+			sourceTree = "<group>";
+		};
+		DE2534191F14DD2A004A8F78 /* MyAlernLab */ = {
+			isa = PBXGroup;
+			children = (
+				DE25341A1F14DD2A004A8F78 /* MyAlernLabel.h */,
+				DE25341B1F14DD2A004A8F78 /* MyAlernLabel.m */,
+				DE25341C1F14DD2A004A8F78 /* UIView+XMGExtension.h */,
+				DE25341D1F14DD2A004A8F78 /* UIView+XMGExtension.m */,
+			);
+			path = MyAlernLab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2533EE1F14DA65004A8F78 /* ViewController.m in Sources */,
+				DE25341F1F14DD2A004A8F78 /* UIView+XMGExtension.m in Sources */,
+				DE25341E1F14DD2A004A8F78 /* MyAlernLabel.m in Sources */,
 				DE2533EB1F14DA65004A8F78 /* AppDelegate.m in Sources */,
 				DE2533E81F14DA65004A8F78 /* main.m in Sources */,
 			);
